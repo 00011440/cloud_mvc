@@ -7,7 +7,7 @@ namespace _11440_DSCC_MVC.Controllers
 {
     public class CarController : Controller
     {
-        private const string baseUrl = "http://localhost:5087/";
+        private const string baseUrl = "http://ec2-13-229-66-225.ap-southeast-1.compute.amazonaws.com/";
         private readonly Uri baseAddress = new Uri(baseUrl);
         private readonly HttpClient client;
 
